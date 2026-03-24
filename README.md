@@ -57,13 +57,32 @@ nano .ssh/authorized_keys
 Paste the public key and save.
 Exit the server and try to login again to confirm that the password is not requested.
  
-
 </details>
 
-## :calendar: Booking a slot in the calendar
+##  <img src="media/work.png" width="22"> Day-to-day Considerations
+
 <details>
-- Make sure to make a reservation on the Calendar. Try not to book resources for more than 2 days. In exceptional cases like deadlines approaching you can contact the server manager and ask whether it is posisble to make a longer reservation at that time.
-- Where to store data so that it can persist. Try to store datasets in the HDD.
+
+### 1. :calendar: Booking a slot in the calendar
+
+Each time you want to use one of the servers, you should create a Calendar event **on the server’s calendar**. 
+
+When naming the event, use your name and which resources you’ll use (e.g. “Maria - GPU1”, “Miguel - CPU only”). 
+
+Finally, when booking a slot `remember that these servers are shared` so try not to book resources for more than 2 days. 
+
+In exceptional cases like deadlines you can contact the server manager and ask whether it is possible to make a longer reservation or get more resources allocated to you at that time.
+
+<p align="center">
+<img src="media/calendar_slot.png" width="500">
+</p> 
+
+### 2.  <img src="media/data.png" width="22"> Persisting your data
+
+Not all data living in the container is guaranteed to persist in the event that the container stops. 
+
+To keep your data safe, you should use `/workspace` for SSD storage and `/media` for HDD storage. 
+
 </details>
 
 ## <img src="media/vscode_logo.png" width="22"> VS Code Workflow 
