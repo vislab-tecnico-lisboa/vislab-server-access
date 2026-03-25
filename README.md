@@ -17,7 +17,7 @@ Find Ryo, give him a brief description of your project and computing and data re
 ### 2. Server Login 
 You will then receive the login credentials: username, password, port andIPv6 of the server. The server manager will also tell you the ID of the GPUs that are available to you, which you should use when creating reservations in the calendar.
 
-The standard method for connecting to the machines is via SSH. If you’re outside the IST network, you’ll need to connect to [IST’s VPN]([https://duckduckgo.com](https://si.tecnico.ulisboa.pt/en/servicos/redes-e-conetividade/vpn/)).
+The standard method for connecting to the machines is via SSH.
 
 If you don't have an ssh config file yet, create one:
 
@@ -56,6 +56,10 @@ nano .ssh/authorized_keys
 ```
 Paste the public key and save.
 Exit the server and try to login again to confirm that the password is not requested.
+
+### :house: Accessing the Server from outside the Técnico
+
+To be able to SSH into the servers, you need to be connected to IST's local area network. If you're outside the campus you need to follow [these instructions](https://si.tecnico.ulisboa.pt/en/servicos/redes-e-conetividade/vpn/) to configure IST's VPN and connect to it before accessing the server.
  
 </details>
 
