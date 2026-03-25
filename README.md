@@ -78,7 +78,7 @@ Finally, when booking a slot `remember that these servers are shared` so try not
 In exceptional cases like deadlines you can contact the server manager and ask whether it is possible to make a longer reservation or get more resources allocated to you at that time.
 
 <p align="center">
-<img src="media/calendar_slot.png" width="350">
+<img src="media/calendar_slot.png" width="500">
 </p> 
 
 ### 2.  <img src="media/data.png" width="22"> Persisting your data
